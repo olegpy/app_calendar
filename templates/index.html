@@ -1,0 +1,10 @@
+{% extends "base.html" %} 
+
+{% load staticfiles %}
+
+{% block title %}index{% endblock %}
+{% block main %}active{% endblock main %} 
+
+{% block content %}
+    <a href="{% url 'comments' %}" class="btn btn-default">Comments</a>
+{% endblock %}

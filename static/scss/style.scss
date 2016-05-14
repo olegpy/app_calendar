@@ -1,0 +1,18 @@
+@import 'variable';
+@import 'mixin';
+
+body {
+    font-family: $font-stack, sans-serif;
+    font-size: 14px;
+    color: $color-theme;
+}
+
+nav {
+    .navbar-brand {
+        padding: 0;
+        img {
+            height: 50px;
+        }
+    }
+    
+}

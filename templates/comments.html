@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+
+{% load staticfiles %}
+
+{% block title %}comments{% endblock %} 
+
+{% block comments %}active{% endblock comments %}
+
+{% block content %}
+	<ul>
+	{% for key, value in dic.items %}
+	    <li>{{key}} - {{value}}</a></li>
+	{% endfor %}
+	</ul>
+{% endblock %}

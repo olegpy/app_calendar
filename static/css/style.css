@@ -1,0 +1,11 @@
+body {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 14px;
+  color: #2c2e37; }
+
+nav .navbar-brand {
+  padding: 0; }
+  nav .navbar-brand img {
+    height: 50px; }
+
+/*# sourceMappingURL=style.css.map */
